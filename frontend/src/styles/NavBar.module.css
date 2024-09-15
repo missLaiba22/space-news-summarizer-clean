@@ -1,0 +1,82 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+  
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+  
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.logoIcon {
+    margin-right: 0.5rem;
+}
+  
+.navLinks {
+    display: flex;
+    gap: 1rem;
+}
+  
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+.navLink:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFD700;
+}
+
+/* Style for the "View Articles" button */
+.articleButton {
+    background-color: #FFD700;
+    color: #0e0b16;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.articleButton:hover {
+    background-color: #e5c700;
+    color: #000; /* Darker color for better visibility on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .articleButton {
+        width: 100%;
+        text-align: center;
+    }
+}

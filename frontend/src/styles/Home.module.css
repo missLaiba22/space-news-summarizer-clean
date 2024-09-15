@@ -1,0 +1,50 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    /* Remove background-color to let stars show */
+    background: transparent;
+}
+  
+.main {
+    flex: 1;
+    padding: 2rem;
+    position: relative; /* Ensure it's positioned relative to the container */
+    z-index: 1; /* Keep content on top of the canvas */
+}
+  
+.heading {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+  
+.newsFeed {
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.articleCard {
+    background-color: #1c1c2b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+  }
+  
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+

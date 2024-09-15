@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Prevent horizontal overflow */
+  overflow-y: hidden;  /* Prevent vertical overflow */
+  height: 100%;
+  background-color: #0e0b16;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+}
+
+h2 {
+  color: #ffdd57;
+}
+
+p {
+  color: #b0b0b0;
+}
+
+
+
+
